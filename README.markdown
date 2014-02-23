@@ -4,4 +4,4 @@ Quickly install with:
 	cd snipmate.vim
 	cp -R * ~/.vim
 
-Changed trigger to <C-j>
+Changed trigger to Ctrl-j
