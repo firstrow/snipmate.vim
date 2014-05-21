@@ -1,0 +1,32 @@
+snippet comm
+	{# ${1} #}
+snippet tw
+	{% ${1} %}
+snippet ifel
+	{% if ${1} %}
+		${2}
+	{% else %}
+		${3}
+	{% endif %}
+snippet ifel
+	{% if ${1} %}
+		${2}
+	{% endif %}
+snippet bloc
+	{% block ${1} %}
+	    {2}
+	{% endblock %}
+snippet block
+	{% block ${1} %}
+	    {2}
+	{% endblock %}
+snippet	exte
+	{% extends '${1}' %}
+snippet incl
+	{% include '{$2}' %}
+snippet set
+	{% set ${1} = ${2} %}
+snippet tran
+	{{ '${1}'|trans({${2}}, '${3:domain}') }}
+snippet path
+	{{ path('${1:route}', { '${2}' : ${3} }) }}
